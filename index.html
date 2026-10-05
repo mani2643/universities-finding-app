@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universities finding app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js" defer></script>
+    <script src="app.js" defer></script>
+    <link rel="icon" href="assets/logo2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <button id="theme-switch">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+    </button>
+    <main>
+        <div class="wrapper">
+            <h1>Universities finding app</h1>
+            <form action="">
+                <input type="text" placeholder="Enter country to find universities">
+                <button>Search</button>
+            </form>
+            <select id="filter-btn">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="current-color"><path d="M440-160q-17 0-28.5-11.5T400-200v-240L168-736q-15-20-4.5-42t36.5-22h560q26 0 36.5 22t-4.5 42L560-440v240q0 17-11.5 28.5T520-160h-80Z"/></svg> -->
+                <option disabled value="select">select</option>
+                <!-- <option value="hello">hello</option>
+                <option value="bye">bye</option> -->
+            </select>
+            <ul id="list">
+                <!-- <li>Hello</li>
+                <li>hi</li>
+                <li>grinding</li> -->
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="email container">
+                <span id="at-symbol">@</span>
+            </div>
+            <div class="container">
+                <h2>Contact</h2>
+                <a href="mailto:nobita286s@gmail.com">nobita286s@gmail.com</a>
+            </div>
+            <div class="container">
+                <h2>Projects</h2>
+                <a href="">Github</a>
+            </div>
+        </div>
+        <span id="quotation">Made with ❤️ for Indians</span>
+    </footer>
+</body>
+</html>
